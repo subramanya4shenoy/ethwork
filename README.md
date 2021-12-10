@@ -20,21 +20,18 @@ Test is nothing but Ganache, so keep the ganache up and running. and also update
 Write your smart contracts and run it in ganache. 
 
 # Conclution:
-Not persuing on this project. It looked this might require few more years for the technology to catch up and make things easier to integrate. 
+Not persuing on this project. It looked like blockchain and solidity might require few more years to catch up with developers and make things easier to integrate.
 
-Solidy is still in version 0.8.x . 
+Solidy is still in version 0.8.x .
 
-All the code looks like Boiler plates and templates. 
+All the code looks like Boiler plates and templates.
 
-Once deployed in main net there is a gas price (real money ~ Ether ~ crypto), which gets deducted for each transaction. 
-Even though the fee is less it doesnt makes any sense to use deploy a test project in main net. 
+Once deployed in main net there is a gas price to be payed (real money ~ Ether ~ crypto) which is a setback. Money gets deducted for each transaction. Even though the fee is less it doesn't makes any sense to deploy a test project in main net. Just the way a regular/pet projects we host, it will never be possible.
 
-Currently, we use block chain to a chained systems, which has a suply chain from producer to consumer. Or a system which requires 100% autonoums. 
-Example is currencies. currencies are mined automatically and circulated and all the flow and transactions are kept in the network. each currency is nothing but a hash `string`. but this string is uniq and cannot be recreated (decoded). So, every entity say, currency or NFT is nothing but a hash string. The value of this increase/ decreases via trading. as many hash strings (or many coins) get mined it will be very difficult to mine more coins (or the hash string) so there is a fee which goes towards mining (it will go to a miner who finds the hash). Also, once found this perticular hash will be updated throughout the network and even then a small fee is payed. Both of these fee included is called as gas fee. This gas fee can be charged to the owner who requests for the new key.  
+Currently, we use blockchain to a 'producer to consumer chained process'. Or a system which runs 100% autonomously without any user interventions. Best example of this is Currencies. Currencies are mined automatically and circulated and all the flow and transactions are kept in the network. each currency is nothing but a hash string. but this string is uniq and cannot be recreated (decoded). So, every entity say, currency or NFT is nothing but a hash string. The value of this increase/decreases via trading. AS many hash strings (or many coins) get mined it will be very difficult to mine more coins (or the hash string) so there is a fee which goes towards mining (it will go to a miner who finds the hash). Also, once found this particular hash will be updated throughout the network and even then a small fee is payed. Both of these fee included is called as gas fee. This gas fee can be charged to the owner who requests for the new key.
 
-Based on the top points the industry these features are required is Banking transactions and currency related. So there are handfull of companies/projects which flaunt about using block chains for this. Those are called as deFi = decentralized Finance.
+Based on the top points the industry these features are required is Banking transactions and currency related. So there are hand full of companies/projects which flaunt about using block chains for this. Those are called as deFi = decentralised Finance.
 
-Just like deFi, we do see lot of other projects to like deSo = decentralized Social etc.. But i do not see any actual use of block chains in them. they are probably using token system (deFI) inside their projects and the front cover is told to be just Social networking sites.
+Just like deFi, we do see lot of other projects too.. like, deSo = decentralised Social etc.. But I do not see any actual use of blockchains in them. They are probably using token system (deFI) inside their projects and the front cover is always a regular Web2.0  social networking sites.
 
-Currently, as of now I donot see any practicle use of block chains in our regular projects or activities. 
-I might be wrong (I hope). If you know anywhere this is used differently or some of the project if you can suggest me It will help me to change my perspective. 
+Currently, I don't see any practical use of blockchains in our regular projects or activities. I might be wrong (I hope). If you know anywhere blockchains implemented differently or some of the project if you can suggest me that will help me to change my perspective.
