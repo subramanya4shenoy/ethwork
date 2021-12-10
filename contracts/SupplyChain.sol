@@ -1,4 +1,4 @@
-pragma solidity >=0.4.21 <0.6.0;
+pragma solidity "0.8.10";
 
 contract supplyChain {
     uint32 public product_id = 0;   // Product ID
@@ -64,7 +64,7 @@ contract supplyChain {
             products[productId].serialNumber = _serialNumber;
             products[productId].cost = _productCost;
             products[productId].productOwner = participants[_ownerId].participantAddress;
-            products[productId].mfgTimeStamp = uint32(now);
+            products[productId].mfgTimeStamp = uint32(block.timestamp);
 
             return productId;
         }
@@ -97,7 +97,7 @@ contract supplyChain {
             ownerships[ownership_id].productId = _prodId;
             ownerships[ownership_id].productOwner = p2.participantAddress;
             ownerships[ownership_id].ownerId = _user2Id;
-            ownerships[ownership_id].trxTimeStamp = uint32(now);
+            ownerships[ownership_id].trxTimeStamp = uint32(block.timestamp);
             products[_prodId].productOwner = p2.participantAddress;
             productTrack[_prodId].push(ownership_id);
             emit TransferOwnership(_prodId);
@@ -108,7 +108,7 @@ contract supplyChain {
             ownerships[ownership_id].productId = _prodId;
             ownerships[ownership_id].productOwner = p2.participantAddress;
             ownerships[ownership_id].ownerId = _user2Id;
-            ownerships[ownership_id].trxTimeStamp = uint32(now);
+            ownerships[ownership_id].trxTimeStamp = uint32(block.timestamp);
             products[_prodId].productOwner = p2.participantAddress;
             productTrack[_prodId].push(ownership_id);
             emit TransferOwnership(_prodId);
@@ -119,7 +119,7 @@ contract supplyChain {
             ownerships[ownership_id].productId = _prodId;
             ownerships[ownership_id].productOwner = p2.participantAddress;
             ownerships[ownership_id].ownerId = _user2Id;
-            ownerships[ownership_id].trxTimeStamp = uint32(now);
+            ownerships[ownership_id].trxTimeStamp = uint32(block.timestamp);
             products[_prodId].productOwner = p2.participantAddress;
             productTrack[_prodId].push(ownership_id);
             emit TransferOwnership(_prodId);
