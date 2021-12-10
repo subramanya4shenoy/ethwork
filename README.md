@@ -7,10 +7,10 @@ Allowing only few participants because each time any read write operation happen
 Creating a token based on commonly used ERC20 token. 
 
 # Knowledge and Tool set Requiered
-🥷 Truffle suite : To run the whole projects. takes care of boilerplate and environments.
-🥷 Ganache: Provides the test ether network with dummy 100eth (10 accounts) to test the smart contracts
-🥷 Solidity: Programing language to write the smart contract for block chain.
-
+🥷 Truffle suite : To run the whole projects. takes care of boilerplate and environments. <br>
+🥷 Ganache: Provides the test ether network with dummy 100eth (10 accounts) to test the smart contracts <br>
+🥷 Solidity: Programing language to write the smart contract for block chain. <br>
+<br>
 
 # Additional Knowledge & tools: 
 🥷 MetaMask : which is like a wallet, this holds your private key.
